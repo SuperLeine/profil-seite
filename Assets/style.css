@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 h1, h2, p{
     text-align: center;
 }
@@ -6,4 +11,35 @@ img{
     width: 150px;
     margin-left: auto;
     margin-right: auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    color: white;
+    min-height: 100vh;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav {
+    background-color: #282828;
+    padding: 10px;
+
+}
+header {
+    padding: 20px;
+}
+main {
+    padding: 20px;
+    flex-grow: 1;
+}
+footer {
+    background-color: #282828;
+    padding: 10px;
+    text-align: center;
 }
